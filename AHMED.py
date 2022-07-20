@@ -1,12 +1,12 @@
 ###----------[ AUTHOR & CREATOR ]---------- ###
-# ------ [ Error ] ------ #
+# ------ [ Gausah Dioprek Ntar Error ] ------ #
 Author    = 'AHMED ALELAGY'
-Facebook  = 'Facebook.com/m1w4m'
+Facebook  = 'Facebook.com/M1W4M'
 Instagram = 'Instagram.com/xzx0'
 Whatsapp  = '0918892477'
-YouTube   = 't.me/ll218'
+Telegram   = 't.me/ll218ll'
 Version   = '1'
-ALELAGY  = 1827084332
+Denventa  = 1827084332
 Postingan = 10217173381366429
 
 ###----------[ IMPORT LIBRARY ]---------- ###
@@ -235,6 +235,31 @@ def convert_id(username):
             return(id)
     except Exception as e:return(username)
 
+###----------[ LOGO ]---------- ###
+def poster():
+    l1 = ('     %s  _________       __                          '%(P))
+    l2 = ('     %s /   %s_____%s/%s____  %s|  | %s__ ________________     '%(J,P,J,P,J,P))
+    l3 = ('     %s \_____  \\\__  \ %s|  |/ // %s__ \_  __ \__  \   '%(P,J,P))
+    l4 = ('     %s /        %s\\%s/%s __ \\%s|    <%s\  ___%s/| | %s\\%s// %s___ \   '%(J,P,J,P,J,P,J,P,J,P))
+    l5 = ('     %s/%s_________%s(%s______%s/%s__%s|%s__\\_____%s>%s__%s|  (%s_______\\'%(J,P,J,P,J,P,J,P,J,P,J,P))
+    l6 = ('     %s Multi Brute Force Facebook %s%s %sBy %sDenventa     '%(P,J,Version,P,J))
+    print('%s\n%s\n%s\n%s\n%s\n%s'%(l1,l2,l3,l4,l5,l6))
+def poster2():
+    l1 = ('     %s  _________       __                          '%(P))
+    l2 = ('     %s /   %s_____%s/%s____  %s|  | %s__ ________________     '%(H,P,H,P,H,P))
+    l3 = ('     %s \_____  \\\__  \ %s|  |/ // %s__ \_  __ \__  \   '%(P,H,P))
+    l4 = ('     %s /        %s\\%s/%s __ \\%s|    <%s\  ___%s/| | %s\\%s// %s___ \   '%(H,P,H,P,H,P,H,P,H,P))
+    l5 = ('     %s/%s_________%s(%s______%s/%s__%s|%s__\\_____%s>%s__%s|  (%s_______\\'%(H,P,H,P,H,P,H,P,H,P,H,P))
+    l6 = ('     %s Multi Brute Force Facebook %s%s %sBy %sDenventa     '%(P,H,Version,P,H))
+    print('%s\n%s\n%s\n%s\n%s\n%s'%(l1,l2,l3,l4,l5,l6))
+def poster3():
+    l1 = ('     %s  _________       __                          '%(P))
+    l2 = ('     %s /   %s_____%s/%s____  %s|  | %s__ ________________     '%(B,P,B,P,B,P))
+    l3 = ('     %s \_____  \\\__  \ %s|  |/ // %s__ \_  __ \__  \   '%(P,B,P))
+    l4 = ('     %s /        %s\\%s/%s __ \\%s|    <%s\  ___%s/| | %s\\%s// %s___ \   '%(B,P,B,P,B,P,B,P,B,P))
+    l5 = ('     %s/%s_________%s(%s______%s/%s__%s|%s__\\_____%s>%s__%s|  (%s_______\\'%(B,P,B,P,B,P,B,P,B,P,B,P))
+    l6 = ('     %s Multi Brute Force Facebook %s%s %sBy %sDenventa     '%(P,B,Version,P,B))
+    print('%s\n%s\n%s\n%s\n%s\n%s'%(l1,l2,l3,l4,l5,l6))
 
 ###----------[ CREATE FOLDER ]---------- ###
 def mkdir_data_login():
@@ -268,11 +293,11 @@ def login():
     resik()
     mkdir_data_login()
     poster()
-    print('\n%s[%s•%s] %sDo not use the personal account %s!'%(M,P,M,P,M))
-    print('%s[%s•%s] %sWhen A2F Account On, Open the link below'%(M,P,M,P))
+    print('\n%s[%s•%s] %sJangan Gunakan Akun Pribadi %s!'%(M,P,M,P,M))
+    print('%s[%s•%s] %sApabila Akun A2F On, Buka Link Dibawah'%(M,P,M,P))
     print('%s[%s•%s] %shttps://business.facebook.com/business_locations'%(M,P,M,J))
-    print('%s[%s•%s] % Then Enter the Authentication Code'%(M,P,M,P))
-    cookie = str(input('\n%s[%s•%s] %sEnter Cookies %s: %s'%(J,P,J,P,J,P)))
+    print('%s[%s•%s] %sLalu Masukkan Kode Autentikasi'%(M,P,M,P))
+    cookie = str(input('\n%s[%s•%s] %sMasukkan Cookies %s: %s'%(J,P,J,P,J,P)))
     try:
         token = clotox(cookie)
         coki = {'cookie':cookie}
